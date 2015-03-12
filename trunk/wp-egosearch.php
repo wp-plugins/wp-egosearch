@@ -3,7 +3,7 @@
 Plugin Name: WP egosearch
 Plugin URI: http://smkn.xsrv.jp/blog/2015/03/wordpress-plugin-called-wp-egosearch/
 Description: Displays the egosearch(search your site URL/sitename) results of twitter in the dashboard.
-Version: 1.0.2
+Version: 1.0.3
 Author: smkn
 Author URI: http://smkn.xsrv.jp/blog/
 License: GPL2 or later
@@ -27,7 +27,7 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
 class wpEgosearch {
 	const WPES_PLUGIN_NAME = 'WP egosearch';
-	const WPES_PLUGIN_VERSION = '1.0.2';
+	const WPES_PLUGIN_VERSION = '1.0.3';
 
 	public $site_url;
 	public $site_name;
@@ -51,7 +51,7 @@ class wpEgosearch {
 	}
 
 	public function wpes_views(){
-		if(!empty($this->consumer_key)){
+		if(!empty($this->consumer_key) && !empty($this->consumer_secret)){
 			/* get bearer token */
 			$headers = array(
 				'POST /oauth2/token HTTP/1.1',
@@ -123,7 +123,7 @@ class wpEgosearch {
 					/* format results */
 					$ego_data = array();
 					foreach($searched->statuses as $k => $v){
-						$ego_data[$k]['post_id'] = $v->id_str;//https://twitter.com/hamagucci/status/573260875219353601
+						$ego_data[$k]['post_id'] = $v->id_str;
 						$ego_data[$k]['date'] = date("Y.m/d H:i:s", strtotime($v->created_at));
 						$ego_data[$k]['user'] = $v->user->screen_name;
 						$ego_data[$k]['text'] = $v->text;
@@ -134,7 +134,7 @@ class wpEgosearch {
 					if(count($ego_data) > 0){
 						foreach($ego_data as $v){
 							echo '<li>';
-							echo '<a href="https://twitter.com/smkn/status/'.$v['post_id'].'" target="_blank">@'.$v['user'].' said. - at '.$ego_data[$k]['date'].'</a>';
+							echo '<a href="https://twitter.com/'.$v['user'].'/status/'.$v['post_id'].'" target="_blank">@'.$v['user'].' said. - at '.$ego_data[$k]['date'].'</a>';
 							echo '<p style="margin:0">'.$v['text'].'</p>';
 							echo '</li>';
 						}
