@@ -166,21 +166,3 @@ class wpEgosearch {
 }
 new wpEgosearch();
 
-
-
-
-
-
-
-/*
-_e('Saved');//保存しました
-_e('Could not update post in the database');//データベース内の投稿を更新できませんでした'
-Say It! 	送信する !
-Error 	エラー
-Submit 	送信
-No items found. 	項目は見つかりませんでした。
-Number of posts to show: 	表示する投稿数:
-Search for: 	検索:
-The term name cannot be empty. 	キーワード名を入力してください。
-For some strange yet very annoying reason, this post could not be edited. 	なにか面妖でとてもうっとうしい理由のため、この投稿は編集できませんでした。
-*/
