@@ -3,16 +3,18 @@ Contributors: smkn
 Tags: egosearch, search, twitter, admin, administration, dashboard
 Requires at least: 4.0
 Tested up to: 4.1
-Stable tag: 1.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Displays the egosearch(search your site URL/sitename) results of twitter in the dashboard.
-(Use twitter 'Application-only authentication' system)
 
 == Description ==
 Displays the egosearch(search your site URL/sitename) results of twitter in the dashboard.
 twitterのエゴサーチ結果(サイトURLもしくはサイト名が言及されているツイート)をダッシュボードに表示するプラグインです。
+
+Use twitter 'Application-only authentication' system.
+ツイッターの「Application-only authentication」機能を使用します。
 
 == Installation ==
 1. Upload the 'wp-egosearch.zip' directory to the '/wp-content/plugins/' directory.
@@ -30,3 +32,4 @@ twitterのエゴサーチ結果(サイトURLもしくはサイト名が言及さ
 
 == Changelog ==
 = 1.0 Initial release =
+= 1.0.1 Fixed typographical error =

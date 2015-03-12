@@ -3,7 +3,7 @@
 Plugin Name: WP egosearch
 Plugin URI: http://smkn.xsrv.jp/blog/2015/03/wordpress-plugin-called-wp-egosearch/
 Description: Displays the egosearch(search your site URL/sitename) results of twitter in the dashboard.
-Version: 1.0
+Version: 1.0.1
 Author: smkn
 Author URI: http://smkn.xsrv.jp/blog/
 License: GPL2 or later
@@ -27,7 +27,7 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
 class wpEgosearch {
 	const WPES_PLUGIN_NAME = 'WP egosearch';
-	const WPES_PLUGIN_VERSION = '1.0';
+	const WPES_PLUGIN_VERSION = '1.0.1';
 
 	public $site_url;
 	public $site_name;
