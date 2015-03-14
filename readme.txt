@@ -23,7 +23,7 @@ Use twitter 'Application-only authentication' system.
    管理画面 -> [プラグイン]メニューから、「WP egosearch」を[有効]にしてください。
 3. Visit the admin dashboard and check out the 'WP egosearch' widget and configure the widget by clicking the link in its upper right corner.
    ダッシュボードの「WP egosearch」ウィジェットの右上にある「設定」から、詳細設定を行ってください。
-4. Before this configure, go twitter.com and get 'oauth consumer key' and 'oauth consumer secret'
+4. Before this configure, go twitter.com and get 'oauth consumer key' and 'oauth consumer secret'.
    事前にtwitter.comより「oauth consumer key」と「oauth consumer secret」を取得しておいてください。
 
 == Screenshots ==
