@@ -3,7 +3,7 @@ Contributors: smkn
 Tags: egosearch, search, twitter, admin, administration, dashboard
 Requires at least: 4.0
 Tested up to: 4.1
-Stable tag: 1.0.0
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -31,8 +31,5 @@ Use twitter 'Application-only authentication' system.
 2. Plugin options.
 
 == Changelog ==
-= 1.0 Initial release =
-= 1.0.1 Fixed typographical error =
-= 1.0.2 Delete unnecessary comments =
-= 1.0.3 Fixed tweet user unknown bug =
-= 1.0.4 Fixed typographical error =
+= 1.0.0 Initial release =
+= 1.1.0 Fixed some errors =
