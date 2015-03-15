@@ -3,7 +3,7 @@ Contributors: smkn
 Tags: egosearch, search, twitter, admin, administration, dashboard
 Requires at least: 4.0
 Tested up to: 4.1
-Stable tag: 1.0.0
+Stable tag: 1.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -23,7 +23,7 @@ Use twitter 'Application-only authentication' system.
    管理画面 -> [プラグイン]メニューから、「WP egosearch」を[有効]にしてください。
 3. Visit the admin dashboard and check out the 'WP egosearch' widget and configure the widget by clicking the link in its upper right corner.
    ダッシュボードの「WP egosearch」ウィジェットの右上にある「設定」から、詳細設定を行ってください。
-4. Before this configure, go twitter.com and get 'oauth consumer key' and 'oauth consumer secret'.
+4. Before this configure, go twitter.com and get 'oauth consumer key' and 'oauth consumer secret'
    事前にtwitter.comより「oauth consumer key」と「oauth consumer secret」を取得しておいてください。
 
 == Screenshots ==
@@ -32,3 +32,7 @@ Use twitter 'Application-only authentication' system.
 
 == Changelog ==
 = 1.0.0 Initial release =
+= 1.0.1 Fixed typographical error =
+= 1.0.2 Delete unnecessary comments =
+= 1.0.3 Fixed tweet user unknown bug =
+= 1.0.4 Fixed typographical error =
